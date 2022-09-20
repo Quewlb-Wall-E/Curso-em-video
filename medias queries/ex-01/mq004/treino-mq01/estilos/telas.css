@@ -1,0 +1,17 @@
+/*CONFIGURÇÕES PARA TODAS AS TELAS DE FIRMA GERAL*/
+
+@charset "UTF-8";
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#impressora{
+    display:none;
+}
+
+article > ul{
+    list-style:circle;
+    line-height: 30px;
+    font-weight: bolder;
+    color:black;
+}

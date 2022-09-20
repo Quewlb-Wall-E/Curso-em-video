@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobaia</title>
+    <style>
+        @media all{
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+
+            html, body{
+                width: 100vw;
+                height: 100vh;
+                position: relative;
+                background-color: rgb(223, 207, 187);
+            }
+
+            main{
+                top: 50%;
+                left: 50%;
+                width: 250px;
+                height: 500px;
+                overflow: hidden;
+                position: absolute;
+                border-radius: 20px;
+                background-color: white;
+                transform: translate(-50%, -50%);
+            }
+
+            section > div#imagem{
+                width: 250px;
+                height: 150px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-image: url('../projeto-login-cobaia/img/hd-wallpaper-gd42abbe9e_1920.jpg');
+            }
+
+            section > div#imagem > h2{
+                padding: 10px;
+                font-size: 1em;
+                color: rgba(0, 0, 0, 0.562);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+            section > div#formulario{
+                width: 250px;
+                height: 350px;
+            }
+
+            section > div#formulario > h2{
+                padding: 12px;
+                color: rgb(0, 0, 0);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+            section > div#formulario > p{
+                text-align: justify;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+        
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div id="imagem">
+                <h2>Harpy</h2>
+            </div>
+            <div id="formulario">
+                <h2>Login</h2>
+                <p>Faça seu login e configure sua conta!</p>
+                <form action="formulario.php" method="post"></form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

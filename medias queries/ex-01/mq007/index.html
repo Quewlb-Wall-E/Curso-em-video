@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Meu Site
+        </h1>
+        <span class="material-icons" id="burguer" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">opcao-01</a></li>
+
+                <li><a href="#">opcao-02</a></li>
+
+                
+                <li><a href="#">opcao-03</a></li>
+
+                
+                <li><a href="#">opcao-04</a></li>
+
+                
+                <li><a href="#">opcao-05</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>
+                Testando Midias Query
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nostrum aperiam deleniti vel architecto dicta, aspernatur dolore adipisci eos ratione est esse perferendis voluptatibus praesentium, cumque pariatur quo. Minus, aperiam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quae ipsa, excepturi sapiente quas deleniti repudiandae illo exercitationem dolorem quo architecto officia fugit eaque rerum, harum et expedita nisi eos.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, nulla! Eos expedita magni quod enim, esse ea accusantium atque vitae quibusdam culpa obcaecati ab fuga cumque! Esse temporibus alias vero.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aspernatur ratione voluptate, iusto officiis excepturi reiciendis, quasi magni alias minima eveniet, obcaecati quam ab accusamus esse mollitia delectus pariatur maxime!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam aliquam perferendis! Neque eos temporibus hic ea. Fugit repudiandae blanditiis sapiente voluptate cum nam maxime sunt amet? Dignissimos, quisquam placeat!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia veritatis consequuntur quae atque eius autem eum magni illum ut. Qui dicta eveniet in nobis pariatur eum ex beatae nemo soluta.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore a praesentium iste veritatis ratione? Eaque, quisquam sint? Commodi ipsum autem, magni incidunt fuga et excepturi repudiandae, aspernatur, reprehenderit illum obcaecati?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet obcaecati possimus quod doloribus accusantium quia saepe fugit delectus ab incidunt odit, quam eius vitae perspiciatis magnam ea, adipisci aspernatur corrupti.</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu(){
+             if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+             }else{
+                itens.style.display = 'block'
+             }
+        }
+    </script>
+</body>
+</html>

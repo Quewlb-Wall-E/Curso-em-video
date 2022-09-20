@@ -1,0 +1,25 @@
+/*Configurações para impressoras*/
+
+@charset "UTF-8";
+
+header{
+    display:none;
+}
+
+article > ul{
+   list-style:inside;
+   text-align:left;
+    
+}
+#impressora{
+    display:block;
+    height: 60px;
+    width: 60px;
+    margin:auto;
+}
+
+#pc{
+    display:none;
+}
+
+

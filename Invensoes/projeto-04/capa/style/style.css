@@ -1,0 +1,24 @@
+
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100vh;
+    background-color: white;
+}
+
+header{
+    height: 60vh;
+    border-style: solid;
+    border-color: black;
+}
+
+header div{
+    text-align: center;
+    margin-top: 30vh;
+    
+}
